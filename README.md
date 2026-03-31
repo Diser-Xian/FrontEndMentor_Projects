@@ -1,3 +1,7 @@
+# frontend-mentor_projects
+This repo contains my  Projects from frontend mentor
+## Blog Card
+added a blog card project
 <<<<<<< HEAD
 # FrontEndMentor_Projects
 This repo Contains all the Projects from FronEnd Menor Website
