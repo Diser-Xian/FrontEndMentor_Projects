@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    width: clamp(250px, 90vw, 500px);
+}
+
+#input_area{
+    outline: none;
+    padding: 1rem;
+    font-size: 1.2rem ;
+    text-align: right;
+    overflow-y: hidden;
+
+    
+}
+
+#char_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+    gap: 0.5rem;
+}
+
+#char_section button{
+    padding: 1rem;
+    border: none;
+    font-size: 1.5em;
+}
